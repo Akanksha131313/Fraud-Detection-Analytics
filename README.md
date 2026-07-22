@@ -188,29 +188,21 @@ Fraud-Detection-Analytics/
 
 │── Fraud_Detection_Documentation.pdf
 
-│── Fraud_Detection_Analytics.pptx
-
 │── Dataset_Information.txt
 
 │
 
 ├── output_screenshots/
 
-│ ├── 01_Database_Creation.png
+│ ├── 01_Dataset_Preview.png
 
-│ ├── 02_Dataset_Preview.png
+│ ├── 02_Recursive_Fraud_Detection.png
 
-│ ├── 03_Recursive_Fraud_Detection.png
+│ ├── 03_Rolling_Fraud_Detection.png
 
-│ ├── 04_Rolling_Fraud_Detection.png
+│ ├── 04_Multiple_CTE_Detection.png
 
-│ ├── 05_Multiple_CTE_Detection.png
-
-│ ├── 06_High_Risk_Accounts.png
-
-│ ├── 07_Balance_Validation.png
-
-│ └── 08_Final_Output.png
+│ └── 05_Final_Output.png
 
 ---
 
