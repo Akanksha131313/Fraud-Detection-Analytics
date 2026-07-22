@@ -1,43 +1,79 @@
 # 🛡️ Fraud Detection Analytics using SQL Server
 
-## 📌 Project Overview
+## 👩‍💻 Internship Details
 
-This project focuses on analyzing large-scale financial transactions to identify fraudulent activities using SQL Server 2022. It demonstrates how SQL can be used to investigate suspicious transaction patterns, validate balance integrity, detect high-risk accounts, and generate business-driven insights for fraud monitoring.
-
----
-
-## 🎯 Business Problem
-
-Financial institutions process millions of transactions daily, making manual fraud detection inefficient. This project aims to identify suspicious transaction behavior, detect potential fraud, and support data-driven fraud prevention strategies through advanced SQL analysis.
+- **Intern Name:** Akanksha Mishra
+- **Intern ID:** CITS5275
+- **Domain:** Data Analytics
+- **Organization:** CodTech IT Solutions Pvt. Ltd.
+- **Internship Duration:** 16 Weeks
 
 ---
 
-## 🚀 Project Objectives
+# 📌 Project Overview
+
+Fraud Detection Analytics is a SQL-based data analytics project designed to investigate large-scale financial transaction data and identify fraudulent activities using Microsoft SQL Server 2022. The project demonstrates how advanced SQL queries and analytical techniques can be used to detect suspicious transactions, validate account balances, identify high-risk customers, and generate business insights that support fraud prevention strategies.
+
+The analysis is performed on the PaySim Mobile Money Transactions dataset containing over 2.17 million financial transaction records. Various SQL concepts such as Common Table Expressions (CTEs), Recursive CTEs, Window Functions, Aggregate Functions, Joins, Subqueries, and Conditional Logic have been applied to solve real-world fraud detection problems.
+
+---
+
+# 🎯 Business Problem
+
+Financial institutions process millions of digital transactions every day. Detecting fraudulent transactions manually is almost impossible due to the massive volume of financial data generated continuously. Fraudulent activities such as unauthorized transfers, suspicious account behavior, and abnormal balance changes can result in significant financial losses if they are not identified quickly.
+
+The primary challenge is to develop an analytical solution capable of identifying suspicious transaction patterns using historical transaction data. By analyzing transaction history, account balances, transfer amounts, and fraud indicators, organizations can proactively detect fraudulent activities and strengthen their fraud prevention systems.
+
+This project addresses these challenges using SQL-based analytical techniques to identify fraudulent transactions, investigate suspicious customer behavior, validate balance consistency, and generate business-driven insights that support decision-making.
+
+---
+
+# 🚀 Project Objectives
 
 - Detect fraudulent financial transactions.
-- Identify suspicious customer activity.
-- Analyze high-value transfer patterns.
-- Validate transaction balance consistency.
+- Identify suspicious customer accounts.
+- Analyze high-value money transfers.
+- Validate account balance consistency.
+- Detect rolling fraud patterns.
 - Investigate flagged transactions.
-- Generate actionable business insights.
+- Generate business insights for fraud prevention.
+- Demonstrate advanced SQL analytical techniques.
 
 ---
 
-## 📊 Dataset
+# 📊 Dataset Information
 
-- **Dataset:** PaySim Mobile Money Transactions
-- **Records Analyzed:** 2.17+ Million
-- **Features:** 11
-- **Database:** SQL Server 2022
+**Dataset Name:** PaySim Mobile Money Transactions
+
+**Database:** Microsoft SQL Server 2022
+
+**Records:** 2.17+ Million Transactions
+
+**Features:** 11
+
+Important Columns:
+
+- Step
+- Type
+- Amount
+- NameOrig
+- OldBalanceOrg
+- NewBalanceOrig
+- NameDest
+- OldBalanceDest
+- NewBalanceDest
+- IsFraud
+- IsFlaggedFraud
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 - Microsoft SQL Server 2022
 - SQL Server Management Studio (SSMS)
 - SQL
 - Common Table Expressions (CTEs)
+- Recursive CTEs
 - Window Functions
 - Aggregate Functions
 - Joins
@@ -46,19 +82,23 @@ Financial institutions process millions of transactions daily, making manual fra
 
 ---
 
-## 📋 Project Workflow
+# 📋 Project Workflow
 
-### 1. Database Setup
-- Created SQL database and transaction table.
-- Imported the transaction dataset into SQL Server.
+### Step 1 – Database Creation
 
-### 2. Data Validation
-- Verified imported records.
-- Checked data quality and consistency.
-- Validated transaction balances.
+- Created SQL database.
+- Imported PaySim transaction dataset.
+- Verified successful data loading.
 
-### 3. Fraud Analysis
-Performed SQL-based analysis to identify:
+### Step 2 – Data Validation
+
+- Checked data consistency.
+- Verified account balances.
+- Examined transaction records.
+
+### Step 3 – Fraud Analysis
+
+Performed SQL analysis to identify:
 
 - Fraudulent transactions
 - High-value transfers
@@ -67,81 +107,169 @@ Performed SQL-based analysis to identify:
 - Flagged transactions
 - Balance inconsistencies
 
-### 4. Advanced SQL Techniques
-- Common Table Expressions (CTEs)
-- Recursive Analysis
+### Step 4 – Advanced SQL Analysis
+
+Applied:
+
+- Recursive CTEs
+- Multiple CTEs
 - Window Functions
-- Running Totals
+- Aggregate Functions
 - Conditional Logic
-- Multi-level Fraud Detection
+- Business Rule Analysis
+
+### Step 5 – Business Insights
+
+Generated insights to support fraud monitoring and financial decision-making.
 
 ---
 
-## 📈 Business Questions Solved
+# 📈 SQL Analysis Performed
 
-- Fraud transaction analysis
-- Fraud trend analysis
-- High-risk account detection
-- Rolling fraud detection
-- Balance validation
-- Large transfer investigation
-- Suspicious transaction identification
-- Fraud chain analysis
+✔ Recursive Fraud Detection
 
----
+✔ Rolling Fraud Detection
 
-## 💡 Key Business Insights
+✔ Multiple CTE Fraud Detection
 
-- Transfer transactions contributed to the majority of fraudulent activities.
-- High-value transfers showed a higher probability of fraud.
-- Multiple suspicious accounts were identified using advanced SQL logic.
-- Balance validation helped detect abnormal transaction behavior.
-- Window functions enabled sequential fraud monitoring.
+✔ High Value Transfer Analysis
+
+✔ Suspicious Account Detection
+
+✔ Balance Validation
+
+✔ Flagged Transaction Analysis
+
+✔ Fraud Trend Investigation
 
 ---
 
-## 📌 Business Recommendations
+# 📌 Business Questions Solved
 
-- Implement real-time fraud monitoring.
-- Automatically flag high-value transfers.
-- Continuously monitor suspicious accounts.
-- Validate account balances before transaction approval.
-- Introduce risk-based fraud scoring.
+- Which transactions are fraudulent?
+- Which accounts show suspicious behavior?
+- Which transfers carry the highest fraud risk?
+- Are account balances consistent after transactions?
+- Which customers repeatedly perform suspicious activities?
+- How can fraudulent transaction chains be identified?
+- Which transactions require further investigation?
 
 ---
 
-## 📂 Repository Structure
+# 📊 Key Business Insights
 
-```
-Fraud-Detection-Analytics-SQL/
+- Transfer transactions contributed to the highest number of fraudulent activities.
+- Large-value transfers demonstrated a significantly higher fraud risk.
+- Recursive analysis successfully identified connected fraud chains.
+- Window Functions detected repeated suspicious transaction behavior.
+- Balance validation identified abnormal financial activities.
+- SQL analytics effectively highlighted high-risk customer accounts.
+
+---
+
+# 💡 Business Recommendations
+
+- Implement real-time fraud monitoring systems.
+- Automatically flag high-value transactions.
+- Continuously monitor suspicious customer accounts.
+- Validate balances before transaction approval.
+- Introduce fraud risk scoring mechanisms.
+- Strengthen fraud detection rules using historical transaction behavior.
+
+---
+
+# 📁 Repository Structure
+
+Fraud-Detection-Analytics/
+
+│── README.md
+
+│── Fraud_Detection_Analytics.sql
+
+│── Fraud_Detection_Documentation.pdf
+
+│── Fraud_Detection_Analytics.pptx
+
+│── Dataset_Information.txt
+
 │
-├── Fraud_Detection_Analytics.sql
-└── README.md
-```
+
+├── output_screenshots/
+
+│ ├── 01_Database_Creation.png
+
+│ ├── 02_Dataset_Preview.png
+
+│ ├── 03_Recursive_Fraud_Detection.png
+
+│ ├── 04_Rolling_Fraud_Detection.png
+
+│ ├── 05_Multiple_CTE_Detection.png
+
+│ ├── 06_High_Risk_Accounts.png
+
+│ ├── 07_Balance_Validation.png
+
+│ └── 08_Final_Output.png
 
 ---
 
-## 💼 Skills Demonstrated
+# ▶️ How to Run
 
-- SQL
+1. Install Microsoft SQL Server 2022.
+
+2. Open SQL Server Management Studio (SSMS).
+
+3. Create a new database.
+
+4. Import the PaySim dataset.
+
+5. Execute the SQL script file.
+
+6. Analyze the generated outputs.
+
+---
+
+# 💼 Skills Demonstrated
+
+- SQL Programming
 - SQL Server
-- Data Cleaning
 - Data Validation
 - Fraud Analytics
 - Financial Data Analysis
 - Business Analytics
 - Common Table Expressions (CTEs)
+- Recursive SQL
 - Window Functions
-- Joins
 - Aggregate Functions
 - Query Optimization
+- Data Interpretation
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Akanksha Mishra**
 
-**Data Analyst | SQL | Python | Power BI | Advanced Excel**
+Data Analyst | SQL | Python | Power BI | Advanced Excel
+
+Open to opportunities in Data Analytics, Business Analytics, SQL Development, MIS Reporting, and Business Intelligence.
+
+---
+
+# 📚 References
+
+- Microsoft SQL Server Documentation
+- SQL Server Management Studio Documentation
+- Microsoft Learn SQL Documentation
+- PaySim Mobile Money Transactions Dataset
+- SQL Window Functions Documentation
+- Common Table Expressions (Microsoft Learn)
+
+---
+
+# 📄 License
+
+This project has been developed for educational and internship purposes under **CodTech IT Solutions Pvt. Ltd.**
 
 Open to opportunities in **Data Analyst, Business Analyst, MIS Executive, Reporting Analyst, and Operations Analyst** roles.
