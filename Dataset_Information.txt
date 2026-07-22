@@ -1,0 +1,64 @@
+===========================================
+DATASET INFORMATION
+===========================================
+
+Project Name:
+Fraud Detection Analytics using SQL Server
+
+Dataset Name:
+PaySim Mobile Money Transactions Dataset
+
+Dataset Source:
+Kaggle - PaySim Mobile Money Transactions
+
+Dataset Type:
+Financial Transaction Dataset
+
+Total Records:
+2.17+ Million Transactions
+
+Total Features:
+11 Columns
+
+Database Used:
+Microsoft SQL Server 2022
+
+Tools Used:
+- SQL Server Management Studio (SSMS)
+- SQL Server 2022
+
+Key Features:
+- Step
+- Type
+- Amount
+- NameOrig
+- OldBalanceOrg
+- NewBalanceOrig
+- NameDest
+- OldBalanceDest
+- NewBalanceDest
+- IsFraud
+- IsFlaggedFraud
+
+Purpose of the Dataset:
+This dataset is used to analyze financial transactions, detect fraudulent activities, identify suspicious accounts, validate transaction balances, and generate business insights using advanced SQL techniques.
+
+Project Objectives:
+- Detect fraudulent transactions
+- Identify suspicious customer accounts
+- Analyze high-value transfers
+- Validate account balances
+- Detect fraud patterns
+- Generate business recommendations
+
+Prepared By:
+Akanksha Mishra
+
+Intern ID:
+CITS5275
+
+Organization:
+CodTech IT Solutions Pvt. Ltd.
+
+Domain:
+Data Analytics
